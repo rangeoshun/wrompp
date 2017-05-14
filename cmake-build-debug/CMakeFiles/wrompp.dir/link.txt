@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/wrompp.dir/lib/color/color.cpp.o CMakeFiles/wrompp.dir/lib/entity/entity.cpp.o CMakeFiles/wrompp.dir/lib/updatable/updatable.cpp.o CMakeFiles/wrompp.dir/lib/vector/vector.cpp.o CMakeFiles/wrompp.dir/main.cpp.o  -o wrompp 
