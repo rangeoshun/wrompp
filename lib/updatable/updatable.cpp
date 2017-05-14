@@ -1,7 +1,15 @@
 #include "updatable.h"
 
 template <class T>
-Updatable<T>::Updatable() {}
+Updatable<T>::Updatable() {
+  updated = false;
+}
+
+template <class T>
+Updatable<T>::Updatable(T data_) {
+  updated = false;
+  data = data_;
+}
 
 template <class T>
 T Updatable<T>::get()

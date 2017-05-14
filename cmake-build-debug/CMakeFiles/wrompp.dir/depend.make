@@ -4,12 +4,14 @@
 CMakeFiles/wrompp.dir/lib/color/color.cpp.o: ../lib/color/color.cpp
 CMakeFiles/wrompp.dir/lib/color/color.cpp.o: ../lib/color/color.h
 
+CMakeFiles/wrompp.dir/lib/entity/entity.cpp.o: ../lib/color/color.h
 CMakeFiles/wrompp.dir/lib/entity/entity.cpp.o: ../lib/entity/entity.cpp
 CMakeFiles/wrompp.dir/lib/entity/entity.cpp.o: ../lib/entity/entity.h
 CMakeFiles/wrompp.dir/lib/entity/entity.cpp.o: ../lib/game/game.h
 CMakeFiles/wrompp.dir/lib/entity/entity.cpp.o: ../lib/updatable/updatable.h
 CMakeFiles/wrompp.dir/lib/entity/entity.cpp.o: ../lib/vector/vector.h
 
+CMakeFiles/wrompp.dir/lib/updatable/updatable.cpp.o: ../lib/color/color.h
 CMakeFiles/wrompp.dir/lib/updatable/updatable.cpp.o: ../lib/updatable/updatable.cpp
 CMakeFiles/wrompp.dir/lib/updatable/updatable.cpp.o: ../lib/updatable/updatable.h
 CMakeFiles/wrompp.dir/lib/updatable/updatable.cpp.o: ../lib/vector/vector.h
@@ -17,6 +19,7 @@ CMakeFiles/wrompp.dir/lib/updatable/updatable.cpp.o: ../lib/vector/vector.h
 CMakeFiles/wrompp.dir/lib/vector/vector.cpp.o: ../lib/vector/vector.cpp
 CMakeFiles/wrompp.dir/lib/vector/vector.cpp.o: ../lib/vector/vector.h
 
+CMakeFiles/wrompp.dir/main.cpp.o: ../lib/color/color.h
 CMakeFiles/wrompp.dir/main.cpp.o: ../lib/entity/entity.h
 CMakeFiles/wrompp.dir/main.cpp.o: ../lib/game/game.h
 CMakeFiles/wrompp.dir/main.cpp.o: ../lib/updatable/updatable.h

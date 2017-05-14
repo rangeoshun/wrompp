@@ -17,6 +17,8 @@ color.h
 /home/range/wrompp/lib/color/color.h
 string
 -
+cstddef
+-
 
 /home/range/wrompp/lib/entity/entity.cpp
 ../game/game.h
@@ -33,6 +35,8 @@ string
 /home/range/wrompp/lib/vector/vector.h
 ../updatable/updatable.h
 /home/range/wrompp/lib/updatable/updatable.h
+../color/color.h
+/home/range/wrompp/lib/color/color.h
 
 /home/range/wrompp/lib/game/game.h
 
@@ -45,6 +49,8 @@ iostream
 -
 ../vector/vector.h
 /home/range/wrompp/lib/vector/vector.h
+../color/color.h
+/home/range/wrompp/lib/color/color.h
 
 /home/range/wrompp/lib/vector/vector.cpp
 vector.h

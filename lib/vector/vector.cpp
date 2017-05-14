@@ -1,5 +1,8 @@
 #include "vector.h"
 
+Vector::Vector() : x(0), y(0) {};
+Vector::Vector(int x_, int y_) : x(x_), y(y_) {};
+
 int Vector::get_x()
 {
   return x;

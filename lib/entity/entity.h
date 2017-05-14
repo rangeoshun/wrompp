@@ -5,24 +5,26 @@
 #include "../game/game.h"
 #include "../vector/vector.h"
 #include "../updatable/updatable.h"
+#include "../color/color.h"
 
 class Fx {};
 
 class Entity
 {
 public:
-  Entity(Game);
+    Entity(Game);
 
-  Updatable<std::string> type;
-  Updatable<Vector> coords;
-  Updatable<bool> alive;
-  Updatable<std::string> name;
+    Updatable<std::string> type;
+    Updatable<bool> alive;
+    Updatable<Vector> coords;
+    Updatable<std::string> name;
+    Updatable<Color> color;
 
-  Fx die_fx;
+    Fx die_fx;
 
 private:
-  Game game;
-  bool updated;
+    Game game;
+    bool updated;
 };
 
 #endif // UPDATEABLE_H
